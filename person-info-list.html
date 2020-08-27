@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>未报到人员</title>
+    <!--style sheet-->
+    <link rel="stylesheet" href="./css/spinningwheel-time.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/content.css" />
+    <style>
+        html{
+            background-color: #F9F9F9;
+        }
+        .g-header{
+            background-color: #fff;
+        }
+        .g-header h1{
+            color: #333;
+        }
+        .back-icon::after{
+            content: "";
+            width: 8px;
+            height: 8px;
+            border:  solid #333;
+            border-width: 1px 0 0 1px;
+            transform: translate(-50%, -50%) rotate(315deg);
+            position: absolute;
+            left: 7%;
+            top: 50%;
+            z-index:10;
+        }
+        .content-list{
+            padding-top: 41px;
+        }
+        .content-item{
+            width: 84%;
+            height: 85px;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 0 .59733333rem;
+            border-radius: 2px;
+            background-color: #fff;
+            -moz-box-shadow: 0 0.128rem 0.256rem rgba(0,24,52,.1);
+            -webkit-box-shadow: 0 0.128rem 0.256rem rgba(0,24,52,.1);
+            box-shadow: 0 0.128rem 0.256rem rgba(0,24,52,.1);
+        }
+        .person-info{
+            padding: .64rem 0;
+        }
+        .head-img{
+            width: 2.56rem;
+            height: 2.56rem;
+            display: inline-block;
+        }
+        .person-info p{
+            display: inline-block;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .person-info span{
+            font-size: 12px;
+            color: #666;
+        }
+        .info-detail{
+            width: 74%;
+            position: absolute;
+            display: inline-flex;
+            padding-left: .5rem;
+            justify-content: start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header id="gh" class="g-header has-border-header">
+        <a href="javascript:;" class="back-icon"></a>
+        <h1>未报到人员</h1>
+    </header>
+    <div class="content-list">
+        <div class="content-item">
+            <div class="person-info">
+                <img src="./imgs/photo.png" alt="" class="head-img">
+                <div class="info-detail">
+                    <p>欧阳开开</p>
+                    <span>学号：123123123132</span>
+                    <span>手机号：13022123312</span>
+                </div>
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="person-info">
+                <img src="./imgs/photo.png" alt="" class="head-img">
+                <div class="info-detail">
+                    <p>欧阳开开</p>
+                    <span>学号：123123123132</span>
+                    <span>手机号：13022123312</span>
+                </div>
+            </div>
+        </div>
+        <div class="content-item">
+            <div class="person-info">
+                <img src="./imgs/photo.png" alt="" class="head-img">
+                <div class="info-detail">
+                    <p>欧阳开开</p>
+                    <span>学号：123123123132</span>
+                    <span>手机号：13022123312</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
